@@ -16,8 +16,8 @@ function default_header_nav() { // HTML markup for a default message in menu loc
     </ul>";
 }
 
-function get_middlebar() {
-    include "middlebar.php";
+function get_leftbar() {
+    include "leftbar.php";
 }
 
 add_theme_support( 'custom-logo', array(
